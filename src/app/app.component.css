@@ -1,0 +1,60 @@
+agm-map {
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+agm-info-window {
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.6);
+}
+.info-window {
+  background: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+.direction {
+  float: left;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.light {
+  font-family: Arial;
+  color: red;
+}
+
+.green {
+  color: green;
+}
+.yellow {
+  color: orange;
+}
+.red{
+  color: red;
+}
+
+.input-window{
+  position: fixed;
+  z-index: 9;
+  top: 10px;
+  left: 10px;
+  background: rgba(255,255,255,0.85);
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 100px black;
+}
+.input-window:hover {
+  background: rgba(255,255,255,0.93);  
+}
+.input-window button{
+  margin: 5px;
+  align-self: center;
+  padding: 10px;
+  background: blue;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 1px 1px 5px black;
+}
